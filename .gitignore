@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node & Web Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env*.local
+
+# Cloudflare & Build tools
+.wrangler/
+.cloudflare/
+.vite/
+*.tsbuildinfo
+
+# OS & Logs
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary working directory (raw exam data, parse scripts, SQL dumps)
+TMP/
+

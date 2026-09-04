@@ -1,0 +1,10 @@
+# Security headers for LINE Mini App
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: ALLOW-FROM https://line.me/
+  Content-Security-Policy: frame-ancestors 'self' https://*.line.me https://*.line.naver.jp;
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Static assets immutable caching
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
